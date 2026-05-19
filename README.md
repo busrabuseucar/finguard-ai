@@ -168,7 +168,7 @@ Frontend Security Dashboard
 - Mobile application
 - Advanced fraud analytics dashboard
 - Threat intelligence scoring engine
-- ### Example Recommendation
+  ### Example Recommendation
 
 FinGuard AI warns users before interacting with suspicious financial content.
 
