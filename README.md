@@ -1,4 +1,5 @@
 # FinGuard AI
+AI-powered financial phishing & scam detection prototype for Turkish digital fraud scenarios.
 
 **FinGuard AI** is a Gemini API powered financial phishing and e-commerce fraud detection prototype developed for **BTK Hackathon 2026**.
 ## Product Preview
@@ -23,6 +24,13 @@ Most users cannot quickly identify whether a message is safe or risky.
 
 ---
 
+## Why It Matters
+
+Financial phishing and e-commerce scams are rapidly increasing in Türkiye.
+
+Many users cannot distinguish fraudulent messages from legitimate notifications, especially under urgency pressure.
+
+FinGuard AI helps users identify risky financial communication before financial damage occurs.
 ## Solution
 
 FinGuard AI helps users analyze suspicious content before they click.
@@ -49,6 +57,19 @@ The system takes a suspicious message as input and returns:
 
 ---
 
+## Real Scam Scenarios Tested
+
+FinGuard AI was tested against realistic Turkish phishing and financial fraud scenarios including:
+
+- Fake cargo delivery notifications
+- Marketplace payment scams
+- Fraudulent IBAN transfer requests
+- Fake banking verification messages
+- Social engineering payment pressure attacks
+- E-commerce refund scams
+- Papara / bank account suspension messages
+
+The system analyzes linguistic manipulation patterns, urgency indicators, suspicious financial requests and phishing intent signals.
 ## How It Works
 
 1. User enters a suspicious financial or e-commerce message.
@@ -60,19 +81,19 @@ The system takes a suspicious message as input and returns:
 ---
 
 ## Example Output
-
 ```json
 {
   "riskScore": 92,
+  "riskLevel": "HIGH",
   "threatType": "Financial Phishing",
-  "riskLevel": "High",
-  "indicators": [
+  "detectedIndicators": [
     "Urgent payment pressure",
     "Suspicious shortened link",
-    "Fake delivery notification",
-    "Financial action request"
+    "Fake cargo notification"
   ],
----
+  "recommendedAction": "Do not click the link. Verify through the official platform."
+}
+```
 
 ## Real Scam Scenarios Tested
 
@@ -130,5 +151,13 @@ User Input → Backend API → Gemini Analysis Engine → Structured Risk Output
 - Mobile application
 - Advanced fraud analytics dashboard
 - Threat intelligence scoring engine
+- ## Installation
+
+```bash
+git clone https://github.com/busrabuseucar/finguard-ai
+cd finguard-ai
+npm install
+npm run dev
+```
   "recommendation": "Do not click the link. Verify the message through the official service."
 }
