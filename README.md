@@ -1,7 +1,10 @@
 # FinGuard AI
-AI-powered financial phishing & scam detection prototype for Turkish digital fraud scenarios.
 
-**FinGuard AI** is a Gemini API powered financial phishing and e-commerce fraud detection prototype developed for **BTK Hackathon 2026**.
+AI Security • Fraud Detection • Turkish Scam Intelligence
+
+FinGuard AI is an AI-powered financial phishing and fraud detection prototype focused on Turkish digital scam scenarios.
+
+Originally developed during BTK Hackathon 2026.
 ## Product Preview
 
 ![FinGuard AI Dashboard](./finguard-ai-dashboard-screenshot.png)
@@ -59,6 +62,7 @@ The system takes a suspicious message as input and returns:
 - Threat category classification
 - Security recommendation output
 - Gemini API integration
+- Localized Turkish scam pattern analysis
 
 ---
 
@@ -77,11 +81,11 @@ FinGuard AI was tested against realistic Turkish phishing and financial fraud sc
 The system analyzes linguistic manipulation patterns, urgency indicators, suspicious financial requests and phishing intent signals.
 ## How It Works
 
-1. User enters a suspicious financial or e-commerce message.
-2. Backend receives the input.
-3. Gemini API analyzes the content.
-4. System generates structured risk output.
-5. Frontend displays the result to the user.
+1. User submits a suspicious financial message.
+2. Backend processes the request securely.
+3. AI analysis engine evaluates phishing indicators and scam patterns.
+4. System generates structured threat classification.
+5. Frontend dashboard visualizes the security analysis.
 
 ---
 
@@ -149,7 +153,7 @@ User Input
    ↓
 Backend API
    ↓
-Gemini Threat Analysis Engine
+AI Threat Analysis Engine
    ↓
 Structured Risk Classification
    ↓
@@ -165,13 +169,5 @@ Frontend Security Dashboard
 - Mobile application
 - Advanced fraud analytics dashboard
 - Threat intelligence scoring engine
-- ## Installation
-
-```bash
-git clone https://github.com/busrabuseucar/finguard-ai
-cd finguard-ai
-npm install
-npm run dev
-```
   "recommendation": "Do not click the link. Verify the message through the official service."
 }
