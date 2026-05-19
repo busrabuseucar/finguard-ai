@@ -1,6 +1,9 @@
 # FinGuard AI
 
 **FinGuard AI** is a Gemini API powered financial phishing and e-commerce fraud detection prototype developed for **BTK Hackathon 2026**.
+## Product Preview
+
+![FinGuard AI Dashboard](./finguard-ai-dashboard-screenshot.png)
 
 It analyzes suspicious financial messages, payment texts, fake campaign messages and e-commerce fraud attempts, then generates a structured security report.
 
