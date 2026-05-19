@@ -4,13 +4,12 @@ AI Security • Fraud Detection • Turkish Scam Intelligence
 
 FinGuard AI is an AI-powered financial phishing and fraud detection prototype focused on Turkish digital scam scenarios.
 
-Originally developed during BTK Hackathon 2026.
+Originally prototyped during BTK Hackathon 2026.
 ## Product Preview
 
 ![FinGuard AI Dashboard](./finguard-ai-dashboard-screenshot.png)
 
-It analyzes suspicious financial messages, payment texts, fake campaign messages and e-commerce fraud attempts, then generates a structured security report.
-
+FinGuard AI analyzes suspicious Turkish financial messages and generates structured AI-powered fraud risk assessments.
 ---
 
 ## Problem
