@@ -28,9 +28,14 @@ Most users cannot quickly identify whether a message is safe or risky.
 
 Financial phishing and e-commerce scams are rapidly increasing in Türkiye.
 
-Many users cannot distinguish fraudulent messages from legitimate notifications, especially under urgency pressure.
+Many users cannot distinguish fraudulent messages from legitimate notifications, especially when exposed to urgency-based manipulation tactics.
 
 FinGuard AI helps users identify risky financial communication before financial damage occurs.
+
+## What Makes FinGuard AI Different?
+
+Unlike generic phishing detectors, FinGuard AI focuses on Turkish financial fraud patterns, urgency-based manipulation tactics and localized scam language commonly used in Türkiye.
+
 ## Solution
 
 FinGuard AI helps users analyze suspicious content before they click.
@@ -132,14 +137,23 @@ Backend:
 - Node.js
 - Express.js
 
-AI Layer:
+AI/NLP:
 - Gemini API
+- Prompt-based threat analysis
 
 ---
 
 ## Project Architecture
 
-User Input → Backend API → Gemini Analysis Engine → Structured Risk Output → Frontend Dashboard
+User Input
+   ↓
+Backend API
+   ↓
+Gemini Threat Analysis Engine
+   ↓
+Structured Risk Classification
+   ↓
+Frontend Security Dashboard
 
 ---
 
