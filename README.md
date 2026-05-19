@@ -72,5 +72,63 @@ The system takes a suspicious message as input and returns:
     "Fake delivery notification",
     "Financial action request"
   ],
+---
+
+## Real Scam Scenarios Tested
+
+FinGuard AI was tested against realistic Turkish phishing and financial fraud scenarios including:
+
+- Fake cargo delivery notifications
+- Marketplace payment scams
+- Fraudulent IBAN transfer requests
+- Fake banking verification messages
+- Social engineering payment pressure attacks
+- E-commerce refund scams
+- Papara / bank account suspension messages
+
+The system analyzes linguistic manipulation patterns, urgency indicators, suspicious financial requests and phishing intent signals.
+
+---
+
+## Live Demo
+
+GitHub Repository:
+https://github.com/busrabuseucar/finguard-ai
+
+Video Demo:
+https://youtu.be/V3h4kIcDiKU
+
+---
+
+## Tech Stack
+
+Frontend:
+- React
+- HTML
+- CSS
+
+Backend:
+- Node.js
+- Express.js
+
+AI Layer:
+- Gemini API
+
+---
+
+## Project Architecture
+
+User Input → Backend API → Gemini Analysis Engine → Structured Risk Output → Frontend Dashboard
+
+---
+
+## Future Improvements
+
+- Turkish NLP fraud dataset integration
+- Real-time scam intelligence feeds
+- Browser extension support
+- Mobile application
+- Advanced fraud analytics dashboard
+- Threat intelligence scoring engine
   "recommendation": "Do not click the link. Verify the message through the official service."
 }
