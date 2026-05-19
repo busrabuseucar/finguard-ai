@@ -167,6 +167,5 @@ Frontend Security Dashboard
 - Browser extension support
 - Mobile application
 - Advanced fraud analytics dashboard
-- Threat intelligence scoring engine
   "recommendation": "Do not click the link. Verify the message through the official service."
 }
