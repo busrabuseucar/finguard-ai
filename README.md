@@ -168,6 +168,7 @@ Frontend Security Dashboard
 - Mobile application
 - Advanced fraud analytics dashboard
 - Threat intelligence scoring engine
+ 
  Example Recommendation Output:
 
 "Do not click suspicious financial links. Always verify payment or account requests through official platforms."
